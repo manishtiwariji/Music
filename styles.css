@@ -1,0 +1,182 @@
+/* Body styles */
+body {
+  background-color: #1a1a1a; /* Set background color */
+  color: #fff; /* Set text color */
+  font-family: 'Arial', sans-serif; /* Set font family */
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex; /* Display flex for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  padding: 30px; /* Padding for navbar */
+  background-color: #111; /* Background color */
+}
+
+.logo {
+  color: #ff8800; /* Logo color */
+  font-size: 28px; /* Logo font size */
+}
+
+nav {
+  display: flex; /* Display flex for layout */
+  gap: 20px; /* Gap between nav links */
+}
+
+.nav-link {
+  color: #fff; /* Nav link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Nav link font size */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: #ff8800; /* Nav link color on hover */
+}
+
+/* Hero section styles */
+.hero-section {
+  background-size: cover; /* Cover background */
+  background-position: center; /* Center background */
+  color: #fff; /* Text color */
+  text-align: center; /* Center text */
+  padding: 100px 20px; /* Padding for content */
+}
+
+.hero-content h1 {
+  font-size: 48px; /* Heading font size */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.hero-content h3 {
+  font-size: 24px; /* Subheading font size */
+  margin-bottom: 30px; /* Bottom margin */
+}
+
+/* Feature section styles */
+.feature-section {
+  display: flex; /* Display flex for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  padding: 100px 20px; /* Padding for content */
+}
+
+.feature-content {
+  flex: 1; /* Occupy remaining space */
+  text-align: left; /* Left-align text */
+}
+
+.feature-content h1,
+.feature-content h2 {
+  color: #ff8800; /* Heading color */
+  font-size: 36px; /* Heading font size */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.feature-content h3 {
+  font-size: 24px; /* Subheading font size */
+  margin-bottom: 30px; /* Bottom margin */
+}
+
+/* Button styles */
+.animated-button {
+  display: inline-block; /* Display inline-block */
+  padding: 10px 20px; /* Padding for button */
+  text-decoration: none; /* Remove underline */
+  background-color: #ff8800; /* Button background color */
+  color: #fff; /* Button text color */
+  border-radius: 5px; /* Border radius */
+  transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+  font-size: 18px; /* Button font size */
+}
+
+.animated-button:hover {
+  background-color: #dd7700; /* Button background color on hover */
+}
+
+.feature-image img {
+  max-width: 100%; /* Maximum width for images */
+  border-radius: 10px; /* Border radius */
+}
+
+/* Dark section styles */
+.dark-section {
+  background-color: #111; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center; /* Center text */
+  padding: 100px 20px; /* Padding for content */
+}
+
+.dark-section h1 {
+  font-size: 36px; /* Heading font size */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.dark-section p {
+  font-size: 18px; /* Paragraph font size */
+  margin-bottom: 40px; /* Bottom margin */
+}
+
+/* Split section styles */
+.split-section {
+  display: flex; /* Display flex for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  padding: 100px 20px; /* Padding for content */
+}
+
+.gift-card-content {
+  flex: 1; /* Occupy remaining space */
+  text-align: left; /* Left-align text */
+}
+
+.split-section img {
+  max-width: 50%; /* Maximum width for images */
+  border-radius: 10px; /* Border radius */
+  margin-right: 20px; /* Right margin */
+}
+
+/* Footer styles */
+footer {
+  display: flex; /* Display flex for layout */
+  justify-content: space-around; /* Space around items */
+  background-color: #111; /* Background color */
+  padding: 20px; /* Padding for footer */
+  text-align: center; /* Center text */
+}
+
+.footer-section {
+  flex: 1; /* Occupy remaining space */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.footer-link {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  display: block; /* Display block for layout */
+  margin-bottom: 10px; /* Bottom margin */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.footer-link:hover {
+  color: #ff8800; /* Link color on hover */
+}
+
+/* Bottom message styles */
+.bottom-message {
+  font-size: 14px; /* Font size */
+  text-align: center; /* Center text */
+  padding: 10px; /* Padding */
+  background-color: #111; /* Background color */
+  color: #666; /* Text color */
+}
+
+/* Hidden class */
+.hidden {
+  display: none; 
+}
